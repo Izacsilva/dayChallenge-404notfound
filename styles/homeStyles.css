@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Space Mono;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 340px;
+    height: 100vh;
+
+    margin: 24px;
+    
+    
+}
+
+hearder .logo{
+    color: #333;
+
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    line-height: 25px;
+    font-style: normal;
+    letter-spacing: -0.06em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin: 4px 0 60px;
+}
