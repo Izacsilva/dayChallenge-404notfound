@@ -53,7 +53,7 @@ main {
 }
 
 #infoBox {
-
+    max-width: 586px;
 }
 
 img#bg-image {
