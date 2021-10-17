@@ -1,0 +1,79 @@
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace;
+
+color: #333333;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #333333;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    min-width: 360;
+}
+
+header.logo {
+    color: var(--primary-color);
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    font-size; 1.5rem;
+    width: 90%;
+    margin-top: 20px;
+    
+}
+.main_contant {
+    
+    width: 90%;
+    
+}
+
+.container_image {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_image img {
+    width: 80%;
+    margin: 60px 0;
+}
+
+.container_text {
+    font-family: 'Space Mono', monospace;
+}
+
+.info_text_box h1 {
+    font-size: 2.5rem;
+}
+
+.info_text_box p {
+    font-size: 1.3rem;
+    margin-top: 60px;
+}
+
+.button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: 'Space Mono', monospace;
+    margin-top: 60px;
+    width: 216px;
+    height: 68px;
+}
