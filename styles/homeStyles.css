@@ -14,25 +14,44 @@ color: #333333;
 }
 :root {
     --primary-color: #333333;
+    font-size: 16px;
 }
 
-.container {
+/* === links and button === */
+a {
+  
+  text-decoration: none;  
+}
+a:hover {
+    text-decoration: underline;
+  }
+button {
+    cursor: pointer;
+}
 
+/* === links and button === */
+
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     width: 100vw;
-    height: 100vh;
-    min-width: 360;
+    min-width: 360px;
+    max-width: 1440px;
+
+    margin: 1rem 0;
+  
 }
 
 header.logo {
     color: var(--primary-color);
     font-family: 'Inconsolata', monospace;
     font-weight: 800;
-    font-size; 1.5rem;
+    font-size: 1.5rem;
     width: 90%;
-    margin-top: 20px;
+    
     
 }
 .main_contant {
@@ -50,20 +69,22 @@ header.logo {
 
 .container_image img {
     width: 80%;
+    
     margin: 60px 0;
 }
 
 .container_text {
     font-family: 'Space Mono', monospace;
+    max-width: 586px;
 }
 
 .info_text_box h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .info_text_box p {
     font-size: 1.3rem;
-    margin-top: 60px;
+    margin-top: 3rem;
 }
 
 .button {
@@ -73,7 +94,20 @@ header.logo {
     font-weight: 700;
     font-size: 0.9rem;
     font-family: 'Space Mono', monospace;
-    margin-top: 60px;
+    margin: 4rem 0 10rem 0;
     width: 216px;
     height: 68px;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: #BDBDBD;
+}
+
+footer a{
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
 }
